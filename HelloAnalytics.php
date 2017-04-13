@@ -94,7 +94,8 @@ function printResults($results) {
     print "<b>Ref: </b><a href='https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-php' target='_blank'>https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-php</a><br />";
     print "<b>Built for:</b>Tommy Johannessen<br /><br />";
     print "First view (profile) found: $profileName <br />";
-    print "<b>Total number of sessions in last 7 days for <a href='http://www.thetechviral.com' target='_blank'>The Tech Viral</a>:</b> $sessions\n";
+    print "<b>Total number of sessions in last 7 days for <a href='http://www.thetechviral.com' target='_blank'>The Tech Viral</a>:</b> $sessions <br />";
+    print "<b>This message should appear after push to Master on GIT. Should automatically push to Heroku container<br />";
   } else {
     print "No results found.\n";
   }
